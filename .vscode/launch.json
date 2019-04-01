@@ -6,9 +6,10 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Debug (Launch)",
+            "name": "Debug (Launch) - Current File",
             "request": "launch",
-            "mainClass": ""
-        }
+            "vmArgs": "--enable-preview",
+            "mainClass": "${file}",
+        },
     ]
 }
